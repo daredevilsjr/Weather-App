@@ -1,0 +1,77 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: Arial, sans-serif;
+}
+
+body {
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: linear-gradient(135deg, #7fdadf, #9face6);
+}
+
+.app {
+   width: 300px;
+   padding: 25px;
+   background: white;
+   border-radius: 15px;
+   text-align: center;
+   box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+}
+
+.search {
+   display: flex;
+   gap: 8px;
+}
+
+input {
+   flex: 1;
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 6px;
+}
+
+button {
+   padding: 10px;
+   border: none;
+   border-radius: 6px;
+   background: #4285f4;
+   color: white;
+   cursor: pointer;
+}
+
+.weather {
+   margin-top: 20px;
+}
+
+.details {
+   margin-top: 10px;
+   font-size: 14px;
+}
+
+.error {
+   margin-top: 10px;
+   color: red;
+}
+
+.suggestions {
+   list-style: none;
+   margin-top: 5px;
+   padding: 0;
+   max-height: 120px;
+   overflow-y: auto;
+   border-radius: 6px;
+}
+
+.suggestions li {
+   background: #f2f2f2;
+   padding: 8px;
+   cursor: pointer;
+}
+
+.suggestions li:hover {
+   background: #ddd;
+}
