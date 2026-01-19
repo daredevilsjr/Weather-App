@@ -1,4 +1,4 @@
-const apiKey = "6e2242a0d8ace345900583a2d57d4101";
+const apiKey = "my_open_wheather_api";
 
 import { cities } from "./cities.js";
 
@@ -63,4 +63,5 @@ cityInput.addEventListener("input", () => {
       suggestionBox.appendChild(li);
    });
 })
+
 
